@@ -1,0 +1,47 @@
+.contrainar1{
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.GREEN{
+  background-color: green;
+  position: relative;
+  height: 250px;
+  width: 400px;
+}
+.RED{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.wrapper{
+    position: relative;
+
+
+}
+.GREENAREA{
+    position: relative;
+}
+.bass{
+    background-color: black;
+    height: 900px;
+    width: 5px;
+    position: absolute;
+    left: 0;
+    top: -25px;
+}
+.bass-bottom{
+    background-color: grey;
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: -55px;
+}
